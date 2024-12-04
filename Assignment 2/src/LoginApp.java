@@ -11,7 +11,7 @@ public class LoginApp extends JFrame {
     private JTextField emailField;
     private JPasswordField passwordField;
     private static final String DB_URL = "jdbc:mysql://avnadmin:AVNS_BOwgsttXw1DG074BVy8@mysql-1e7edf9b-lhr-b3a4.e.aivencloud.com:25416/softwaretesting?ssl-mode=REQUIRED";
-
+    println("Hello");
 
     public LoginApp() {
         setTitle("Login Screen");
